@@ -1,4 +1,4 @@
-var number = 
+var number = Math.random() * 10;
 
 function even_or_odd(number) {
     // ...
