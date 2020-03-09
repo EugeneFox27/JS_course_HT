@@ -1,6 +1,6 @@
 var number = Math.random() * 10;
 
-function even_or_odd(number) {
+function EvenOrOdd(number) {
     // ...
     if (number %2 == 0){
     return "Even";
@@ -9,3 +9,5 @@ function even_or_odd(number) {
     return "Odd";
     }
   }
+console.log(number);
+console.log(EvenOrOdd(number));
